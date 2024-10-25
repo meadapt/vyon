@@ -3,3 +3,4 @@ Django==5.1.2
 taskipy==1.14.0
 frictionless==5.18.0
 SQLAlchemy==2.0.36
+python-dotenv==1.0.1
