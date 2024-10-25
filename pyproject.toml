@@ -3,4 +3,5 @@ devserver = { cmd = "python manage.py runserver", help = "Liga o servidor local 
 prodserver = { cmd = "python manage.py runserver", help = "Liga o servidor de produção django." }
 makemigrations = { cmd = "echo 'Rodando makemigrations' && python manage.py makemigrations", help = "Cria arquivos de migração." }
 migrate = { cmd = "echo 'Rodando migrations' && python manage.py migrate", help = "Aplica modificações previstas nas migrações no banco de dados." }
+erd = { cmd = "python scripts/erd.py", help = "Create ERD picture." }
 pre_migrate = "task makemigrations"
