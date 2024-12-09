@@ -1,5 +1,5 @@
 ipdb==0.13.13
-Django==5.1.2
+Django==5.1.4
 taskipy==1.14.0
 frictionless==5.18.0
 SQLAlchemy==2.0.36
